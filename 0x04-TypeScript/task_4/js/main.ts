@@ -1,12 +1,10 @@
-/// <reference path="./subjects/Cpp.ts" />
-/// <reference path="./subjects/Java.ts" />
-/// <reference path="./subjects/React.ts" />
+/// <reference path="./subjects/index.ts" />
 
-export const cpp = new Subjects.Cpp();
-export const java = new Subjects.Java();
-export const react = new Subjects.React();
+export const cpp = new Cpp();
+export const java = new Java();
+export const react = new React();
 
-export const cTeacher: Subjects.Teacher = {
+export const cTeacher: Teacher = {
   firstName: "Amer",
   lastName: "Hamad",
   experienceTeachingC: 10,
